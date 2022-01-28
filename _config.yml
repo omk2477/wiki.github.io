@@ -1,16 +1,15 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
-description: >
-  Build Jekyll site with the GitBook style.
+title:            skills wiki
+longtitle:        hello skills wiki world
+author:           unknown
+email:            unknown
+description:      unknown
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://smc-skills.github.io/'
+baseurl:          '/wiki.github.io'
 rss:              RSS
 
 toc:
@@ -26,7 +25,7 @@ kramdown:
   math_engine:            mathjax
   smart_quotes:           lsquo,rsquo,ldquo,rdquo
   toc_levels:             1..6
-  syntax_highlighter:     rouge
+  syntax_highlighter:     colorful
   syntax_highlighter_opts:
     guess_lang:           true
 
