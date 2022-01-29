@@ -2,12 +2,7 @@
 layout: home
 ---
 
-# Jekyll GitBook for SMC-Skills
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
-
-Wiki URL: [https://smc-skills.github.io/wiki.github.io/](https://smc-skills.github.io/wiki.github.io/)
-
-## Description
+## 개요
 SMC-Skills 위키에 오신것을 환영합니다.  
 이 위키는 세명컴퓨터고등학교 기능반 학생들이 운영하며,  
 근처 맛집 및 학교에 대한 정보를 표시합니다.  
@@ -15,54 +10,11 @@ SMC-Skills 위키에 오신것을 환영합니다.
 특정 인물에 대한 비난과 같은 내용은 기재가 금지되며  
 발견 시 삭제될 수 있음에 유의 바랍니다.
 
-## Demo
-
-Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
-
-
-### 로컬 설정
-
-해당 테마는 루비와 젬파일들로 로컬에서 동작시킬 수 있습니다.
-
-아래 설정 진행 후 [localhost:4000/wiki.github.io/index.html](localhost:4000/wiki.github.io/index.html) URL 로 접속이 가능합니다.
-
-### Deploy Locally with Jekyll Serve
-
-[Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
-
-3줄 요약
-1. 루비 설치
-2. bundle install
-3. bundle exec jekyll serve
-
-## Caution
-
-root 디렉토리 index.md 에 가장 상위에는 아래 코드가 포함되어야 합니다.
-
-해당 코드가 포함되지 않은 경우 404 에러가 발생합니다.
-
-```
 ---
-layout: home
----
-
-```
-
-## Full-text search
-
-The search functionality in jekyll-gitbook theme is powered by the [gitbook-plugin-search-pro][5] plugin and is enabled by default.
-
-[https://sighingnow.github.io/jekyll-gitbook/?q=generated](https://sighingnow.github.io/jekyll-gitbook/?q=generated)
-
-## License
-
-This work is open sourced under the Apache License, Version 2.0.
-
-Copyright 2019 Tao He.
-
-[1]: https://pages.github.com
-[2]: https://pages.github.com/themes
-[3]: https://github.com/sighingnow/jekyll-gitbook/fork
-[4]: https://github.com/allejo/jekyll-toc
-[5]: https://github.com/gitbook-plugins/gitbook-plugin-search-pro
-[6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
+## 코드 기여 방법
+리드미에 적혀있는 브랜치전략에 따라 ```feature/[Github ID]``` 혹은 ```bugfix/[Github ID]``` 형식으로  
+브랜치 생성 후 코드를 작성해주시면 됩니다.  
+메인 페이지는 최상위 디렉토리의 index.md 가 변환되어 표시되고 있으며  
+기타 포스팅들은 ```./_posts``` 디렉토리에 생성되어 변환되고 있습니다.  
+커밋 푸시 후 PR 요청 시 관리자가 확인하여 주기적으로 병합처리 하고 있습니다.  
+main 브랜치에 다이렉트로 푸시하는 행동은 금지합니다.  
