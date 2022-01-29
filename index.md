@@ -3,6 +3,14 @@
 
 Wiki URL: [https://smc-skills.github.io/wiki.github.io/](https://smc-skills.github.io/wiki.github.io/)
 
+## Description
+SMC-Skills 위키에 오신것을 환영합니다.  
+이 위키는 세명컴퓨터고등학교 기능반 학생들이 운영하며,  
+근처 맛집 및 학교에 대한 정보를 표시합니다.  
+  
+특정 인물에 대한 비난과 같은 내용은 기재가 금지되며  
+발견 시 삭제될 수 있음에 유의 바랍니다.
+
 ## Demo
 
 Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
