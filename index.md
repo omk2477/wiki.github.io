@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Jekyll GitBook for SMC-Skills
 [![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
 
@@ -12,6 +16,8 @@ Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https:/
 
 해당 테마는 루비와 젬파일들로 로컬에서 동작시킬 수 있습니다.
 
+아래 설정 진행 후 [localhost:4000/wiki.github.io/index.html](localhost:4000/wiki.github.io/index.html) URL 로 접속이 가능합니다.
+
 ### Deploy Locally with Jekyll Serve
 
 [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
@@ -20,6 +26,19 @@ Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https:/
 1. 루비 설치
 2. bundle install
 3. bundle exec jekyll serve
+
+## Caution
+
+root 디렉토리 index.md 에 가장 상위에는 아래 코드가 포함되어야 합니다.
+
+해당 코드가 포함되지 않은 경우 404 에러가 발생합니다.
+
+```
+---
+layout: home
+---
+
+```
 
 ## Full-text search
 
